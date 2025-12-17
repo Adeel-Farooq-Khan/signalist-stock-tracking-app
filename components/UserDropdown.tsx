@@ -17,7 +17,7 @@ const UserDropdown = () => {
   const router = useRouter();
 
   const handleSingout = async () => {
-    router.push("/sing-in");
+    router.push("/sign-in");
   };
   const user = { name: "Adeel", email: "adeelfarooq417@gmail.com" };
   return (
